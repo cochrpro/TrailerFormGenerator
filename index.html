@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<html>
+<head>
+  <title>Trailer Drop Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/trailerCSS.css">
+</head>
+
+<body>
+    <article>
+        <p>
+            To generate a dropped trailer form
+            input the company of the driver
+            and the trailer number and hit
+            "submit". 
+        </p>
+        <p>
+            After finishing trailer
+            submissions click "generate table"
+            to generate a table of all dropped
+            trailers.
+        </p>
+    </article>
+    <article>
+        <form id = "TrailerDrop">
+            <label for="truckCompany">Company Name:</label>
+            <input id="truckCompany"></input>
+            <br>
+            <label for="trailerNumber">Trailer Number: </label>
+            <input id="trailerNumber" type="number"> </input>
+            <br>
+            <label for="timeDrop"> Time Dropped: </label>
+            <input id="timeDrop" type="time"></input>
+            <br>
+            <input type="submit" id="Submit Trailer"></input>
+            <br>
+        </form>
+        <br>
+        
+        <!-- ONLY ONE SUBMIT BUTTON IS NEEDED, ADD TO GRID -->
+        
+        <form id="tableGenerate">
+            <input type="submit" id="generateGrid" value="Add To Grid"></input>
+        </form>
+    </article>
+    <p id="Response_Field">
+    </p>
+    <article>
+        <table style="width:75%" id="TrailerGridArea">
+            <tr>
+                <th>Company Name</th>
+                <th>Trailer Number</th>
+                <th>Drop Time</th>
+            </tr>
+        </table>
+    </article>
+    <script src="js/trailer_grid_generator.js"></script>
+</body>
+</Html>

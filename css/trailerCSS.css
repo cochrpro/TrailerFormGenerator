@@ -1,0 +1,38 @@
+body{
+  background-color: #BEBEBE;
+}
+
+article{
+  padding: 1em;
+  margin-top: 1em;
+  border: groove;
+  border-radius: 1px;
+}
+
+label{
+  display: inline-block;
+  width: 130px;
+}
+
+form{
+  display: inline-block;
+}
+
+form > input{
+  width: 120px;
+}
+
+table{
+  width: auto;
+  background-color: grey;
+  text-align: center;
+  padding: 5px;
+}
+
+th{
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: AntiqueWhite;
+}

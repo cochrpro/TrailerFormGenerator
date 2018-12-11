@@ -1,0 +1,36 @@
+Problem Statement:
+	A program is needed to store the empty trailers being dropped at an 
+industrail year. The program must be able to record the name of the company
+dropping the trailer, the trailer's numbers, and the time the trailer was
+dropped. It should then generate a table to be put on a webpage that can
+be read by the user. 
+________
+Nouns:
+	Empty trailer
+	Company
+	trailer number
+	time
+	table
+Verbs:
+	Store trailer
+	record name
+	record trailer
+	record time
+	generate table
+__________
+Inputs:
+	Company hauling trailer
+	Trailer number
+	Time trailer dropped
+
+Processing:
+	get trailer data from webpage
+	store trailer data in array
+	convert array to readable format
+	turn data into valid html table
+
+Output:
+	HTML table
+
+___________
+Problem Solution / PsuedoCode
